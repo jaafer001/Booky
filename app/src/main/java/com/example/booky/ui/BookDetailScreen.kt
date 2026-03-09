@@ -142,7 +142,6 @@ fun BookDetailScreen(
 
                             FilledTonalButton(
                                 onClick = {
-                                    // Handle direct download intent
                                     downloadUrl?.let {
                                         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(it))
                                         context.startActivity(intent)

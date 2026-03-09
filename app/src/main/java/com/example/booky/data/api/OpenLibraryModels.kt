@@ -15,7 +15,7 @@ data class BookDoc(
     @SerializedName("subject") val subjects: List<String>?,
     @SerializedName("cover_i") val coverI: Int?,
     @SerializedName("language") val languages: List<String>?,
-    @SerializedName("ia") val ia: List<String>?, // Internet Archive IDs for downloading
+    @SerializedName("ia") val ia: List<String>?,
     @SerializedName("format") val formats: List<String>?
 ) {
     val coverUrl: String?
