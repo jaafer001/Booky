@@ -163,7 +163,7 @@ function renderProjects() {
                 <p class="project-description">${project.description}</p>
                 ${project.technologies ? `
                 <div class="project-technologies">
-                    ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                    ${project.technologies.map(tech => `<span class="tech-tag">${tech} </span>`).join('')}
                 </div>
                 ` : ''}
                 ${project.url ? `
